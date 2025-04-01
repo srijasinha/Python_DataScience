@@ -1,0 +1,49 @@
+Python Libraries-
+1)Python libraries are collections of pre-written codes to perform specific tasks. This eliminates the need of rewriting the code from scratch.
+Uses of pthon library - a)Faster application development
+                         b)Enhance code efficiency
+                        c)Achieve code modularization
+start-Numpy(scientific computation)-<Pandas(Data structure daa anylysis)-<Matplotlib(Plooting and visualization)->Scikit-Learn(Machine learing Tools)-End
+
+1.    Numpy
+
+To get the mathematical and structural understanding of such data
+To build a base for Pandas, the data manipulation library
+To get familiar with terms like arrays, axis, vectorization etc.
+ 
+
+2.       Pandas
+
+To read the data
+To explore the data
+To do operations on the data
+To manipulate the data
+To draw simple visualizations for self-consumption
+To generate insights
+ 
+
+3.       Matplotlib
+
+To visualize the data
+To generate deep insights
+To present the data to the leadership
+To get a visual understanding of various features
+ 
+
+4.       Sci-kit learn
+
+To get data ready for model building
+To build predictive models
+To evaluate the models
+
+A python List can be used to store a group of elements together in a sequence. It can contain heterogeneous elements.
+
+Data structures in Numpy-
+The main data structure of NumPy is the ndarray or n-dimensional array.
+
+The ndarray is a multidimensional container of elements of the same type as depicted below. It can easily deal with matrix and vector operations.
+
+
+
+ 
+
