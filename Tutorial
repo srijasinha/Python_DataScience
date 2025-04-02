@@ -54,5 +54,47 @@ Read the data->Explore the data->Perform operations on the data->Visualize the d
 2)provides us with extremely streamlined forms of data representation
 3)can handle heterogenous data, has extensive set of data manipulation features and makes data flexible and customizable
 
+***Data Manipualtion in Pandas***
+Data Loading->Data Processing->Data Transformation->Data Anylysis
+
+Data Manipulation-
+1)In machine learning, a model relies on a dataset for training and testing.
+
+2)Data Manipulation: The process of organizing, transforming, or restructuring data to make it more suitable for analysis, visualization, or decision-making.
+This includes filtering, sorting, merging, and modifying data to extract meaningful insights.
+
+3)Data Cleaning: The process of identifying and correcting errors, inconsistencies, or missing values in a dataset to improve its quality and reliability.
+This includes handling duplicate values, filling or removing missing data, and correcting formatting issues.
+
+4)Data Wrangling: The Merging and joing -- process of converting raw, unstructured data into a clean and structured format suitable for analysis or machine learning. It involves data cleaning, transformation, and integration to prepare the dataset for further use.
+The pandas library in Python is a powerful tool for data manipulation and analysis. The unique function in pandas is used to find the unique values in a Series or DataFrame column. Pandas makes data manipulation easy and efficient with its rich set of functions.
+The ability to clean, transform, and analyze structured data makes it an essential tool in data science and machine learning.
+
+Data Manipulation with pandas
+1)loading -- pd.read csv()
+2)Inspecting -- df.info(),df.head(),df.tail(),df.describe()
+3)Selecting and filtering-- df['col'],df[['col1,'col2']],df.Loc[]
+4)Handeling missing date-- df is null(),df.filna,df.dropna()
+5)Transformation -- df.rename(),df['col'].atype{}
+6)Aggregation and grouping -- df.groupby()
+7)Sorting and restoring --df.sort_values
+8)Merging and joing -- pd.merger(),pd.conat()
+9)Pivot table and Reshapimg --pd.melt(),df.pivot_table()
+10)value_counts(): How many times each unique value appears in a column.
+11)size: Total number of "cells" in the Data Frame. i.e, it Returns the total number of elements in the Data Frame.
+This is equivalent to the number of rows multiplied by the number of columns. It includes missing values (NaN)
+12)count(): How many valid (non-missing) values are in each column.  Returns the number of non-missing (non-NaN) values in each column (or if applied to the entire Data Frame, in each column). It excludes missing values.
+It gives you a count of the valid, usable data in each column.
+
+
+***Handling Missing Values
+
+Missing values can be handled in several ways depending on the dataset and the impact on analysis:
+
+1)Removing missing values: Deleting rows or columns with missing data if they are not significant.
+2)Imputing missing values: Replacing missing values with statistical measures such as mean, median, or mode.
+3)Using predictive models: Estimating missing values based on other available data using machine learning techniques.
+
+
  
 
