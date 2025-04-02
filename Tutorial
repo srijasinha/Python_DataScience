@@ -43,7 +43,16 @@ The main data structure of NumPy is the ndarray or n-dimensional array.
 
 The ndarray is a multidimensional container of elements of the same type as depicted below. It can easily deal with matrix and vector operations.
 
+*****Pandas****
+Pandas is an open-source library for real world data analysis in python.
+It is built on top of Numpy. Using Pandas, data can be cleaned, transformed, manipulated, and analyzed.
+steps-
+Read the data->Explore the data->Perform operations on the data->Visualize the data->Generate insights
+***Pandas is one of the most popular data wrangling and analysis tools because it:
 
+1)It has the capability to load huge sizes of data easily
+2)provides us with extremely streamlined forms of data representation
+3)can handle heterogenous data, has extensive set of data manipulation features and makes data flexible and customizable
 
  
 
