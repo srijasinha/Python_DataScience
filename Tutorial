@@ -95,6 +95,38 @@ Missing values can be handled in several ways depending on the dataset and the i
 2)Imputing missing values: Replacing missing values with statistical measures such as mean, median, or mode.
 3)Using predictive models: Estimating missing values based on other available data using machine learning techniques.
 
+**Merge() Function**
+Purpose:
+1)Used to combine two DataFrames based on common columns or indexes.
+2)Similar to SQL JOIN operations.
 
- 
+**join() Function**
+Purpose:
+
+1)Used to combine two DataFrames based on the index instead of columns.
+2)Efficient when working with indexed data.
+3)Inner: Use when you only want to keep data that is common to both DataFrames.
+4)Outer: Use when you want to keep all data from both DataFrames, even if there are no matches.
+5)Left: Use when you want to keep all data from the "left" DataFrame and matching data from the "right" DataFrame (common when the left DataFrame is your primary source of information).
+6)Right: Use when you want to keep all data from the "right" DataFrame and matching data from the "left" DataFrame.
+
+Pandas Plot: Pandas also provides us options to visualize the data. Here are some of the examples:
+Syntax: df.plot(X, y, marker, kind)
+       X = value on X axis
+       y = value on y axis
+       marker = shape in case of specific plots like a scatter plot
+        kind = type of plot
+
+***SciPy - Scientific Python***
+1)single Processing
+2)Interpolation -Interpolation technique is used in the oil and gas industry for estimating unknown data points between known values.
+3)Optimization
+4)Numerical Integration
+5)Curve Fitting Integration-Filtering techniques are widely used in the oil and gas industry for processing and analyzing well log data, seismic data,
+and sensor readings. 
+6)Convolution and Deconvolation
+7)Image Processing
+8)spectral analysis- It is commonly used in seismic data processing and interpretation.
+By applying the Fourier transform to seismic signals, we can analyze the frequency content of the data, which helps identify subsurface structures like faults, reservoirs, and stratigraphic features.
+
 
