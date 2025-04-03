@@ -129,4 +129,64 @@ and sensor readings.
 8)spectral analysis- It is commonly used in seismic data processing and interpretation.
 By applying the Fourier transform to seismic signals, we can analyze the frequency content of the data, which helps identify subsurface structures like faults, reservoirs, and stratigraphic features.
 
+**Types of plots**
+1)#importing the data
+df = pd.read_csv('auto_mpg.csv')
+df.info()    #to know the column names, missing values and their data type
+
+3)#replacing the null values in 'horsepower' with its mean value
+df['horsepower'].fillna(df['horsepower'].mean(), inplace=True)
+
+***Boxplots***-
+1)A boxplot gives a good indication of distribution of data about the median. 
+2)Boxplots are a standardized way of displaying the distribution of data based on the five-number summary
+(“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”).
+
+2)Scatter plot- A scatter plot uses dots or markers to represent a value on the axes. 
+The scatter plot is one of the simplest plots which can accept both quantitative and qualitative values,
+with a wide variety of applications in primitive data analysis. 
+
+3)Bar Chart- A bar chart is a graph with rectangular bars that usually compare different categories. 
+Each bar represents a particular category. The length of the bar indicates the total number of values or items in that category.
+
+4)Histogram- A histogram also represents data as rectangular bars.
+Unlike the bar graph, It is used for continuous data. 
+Each bar groups the numbers into intervals (bins) and the height of the bar is based on the number of values that fall 
+into the corresponding intervals.
+
+5)Pie chart- A Pie chart divides the entire dataset into distinct groups. 
+The chart consists of a circle split into pies and each pie represents a group. 
+The size of the pie is proportional to the number of items in each group compared to others
+
+6)Line Chart- Line Chart is drawn by interconnecting all data points using straight line segments in sequential order.
+It is used to analyze historic variations and trends in data.
+The individual data points are chronologically connected to obtain the patterns and draw meaningful inferences.
+
+7)Linestyle- Matplotlib supports several line styles such as solid line, 
+dashed line (-----), dotted line (…..), dashdot (-.-.-.-) etc. 
+In addition to color and linestyle, the width of the line can be customized to get a unique plot.
+
+8)Markers- Markers are used to highlight the intercepts in a plot. 
+There are several types of markers such as ‘o’, ‘s’, ‘x’,’+’, etc.
+
+9)Seaborn-Seaborn is a statistical data visualization library in python. 
+It is integrated to work with Pandas DataFrames with a straight forward approach. 
+Seaborn extends the plotting capabilities of Matplotlib and provides a high-level interface to generate
+attractive plots that are visually appealing.
+
+10)Plotly-Plotly is another data visualization library that is used to generate highly interactive plots.
+
+11)Scikit-learn - (also referred as sklearn) is a python library widely used for machine learning.
+It is characterized by a clean, uniform and streamlined API.
+
+The data must be divided into two parts. 
+First, a training set on which model can be trained. 
+Second, a testing set on which the model can be validated.
+
+
+
+
+
+
+
 
